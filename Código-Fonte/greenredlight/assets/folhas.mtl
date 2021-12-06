@@ -1,0 +1,17 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl leaves
+Ns 287.999996
+Ka 0.130000 0.130000 0.130000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 1.000000 1.000000 1.000000
+Ni 1.450000
+d 1.000000
+illum 1000
+map_Bump maps/leafclusterNormal.jpg
+map_Kd maps/leafclustercolor.jpg
+map_Ke maps/eafclustertranslu.jpg
+map_Ks maps/leafclustespecular.jpg
+map_d maps/leafclusteralpha.jpg
