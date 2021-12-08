@@ -65,6 +65,11 @@ A partir desses links é possível visualizar e baixar os modelos 3D usados ness
 
 [Link do modelo 3D do boneco (Among Us)](https://sketchfab.com/3d-models/among-us-obj-5254d257fac74e28aa1455a368481279)
 
+## Fonte de Texturas Adicionais 
+[Link da textura de Areia](https://sketchfab.com/3d-models/beach-sand-substance-5c08ab068a6c48ca9c07c2eb396ece2a)
+
+[Link da textura de gesso](https://polyhaven.com/a/yellow_plaster)
+
 ---
 Mais detalhes sobre a aplicação podem ser obtidos acessando o código-fonte.
 
