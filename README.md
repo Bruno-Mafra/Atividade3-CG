@@ -53,6 +53,7 @@ O shader "normalmapping.frag" sofreu uma pequena alteração na parte do cálcul
 
 ---
 
+## Resultado
 O resultado final é uma versão parecida com a anterior, até mesmo nas cores, mas texturizada e muito mais bonita visualmente.
 
 ![result](https://user-images.githubusercontent.com/74402232/145303708-2a0cef8c-3c34-4a95-bdf5-7683f0a8b5d9.png)
