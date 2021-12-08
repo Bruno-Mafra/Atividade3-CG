@@ -21,7 +21,7 @@ Essa classe agora também é responsável pela definição das variaveis uniform
 ### boneca.cpp
 Essa classe agora carrega uma textura difusa que detalha adequadamente a aparência da boneca. Essa textura utliza a técnica de mapeamento UV.
 
-### <teste/s>arvore.cpp</s>
+### <strike>arvore.cpp</strike> 
 Essa classe não existe mais, pois a texturização da arvore toda envolvia dois materiais diferentes (um para o tronco e outro para folhas), agora, então, foram adicionadas das novas classes que fazem a leitura separada dos .obj relacionado a arvore e seus respectivos materiais.
 
 ### tronco.cpp
