@@ -253,6 +253,10 @@ void Folhas::render(Camera m_camera) {
   abcg::glUniform4fv(KdLoc, 1, &m_Kd.x);
   abcg::glUniform4fv(KsLoc, 1, &m_Ks.x);
 
+  glEnable(GL_BLEND);
+  glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA); 
+  glBlendEquation(GL_FUNC_ADD);
+  
   abcg::glEnable(GL_CULL_FACE);
   glDrawElements(GL_TRIANGLES, m_indices.size(), GL_UNSIGNED_INT, nullptr);
 
@@ -261,6 +265,7 @@ void Folhas::render(Camera m_camera) {
   glFrontFace(GL_CCW);
   abcg::glDisable(GL_CULL_FACE);
 
+  glDisable(GL_BLEND);
   glBindVertexArray(0);
   glUseProgram(0);
 }
