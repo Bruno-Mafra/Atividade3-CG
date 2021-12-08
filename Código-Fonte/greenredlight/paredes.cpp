@@ -218,8 +218,6 @@ void Paredes::render(Camera m_camera) {
 
   abcg::glActiveTexture(GL_TEXTURE0);
   abcg::glBindTexture(GL_TEXTURE_2D, m_diffuseTexture);
-//  glGenerateMipmap(GL_TEXTURE_2D);
-//  _MIPMAP_NEAREST
 
   abcg::glActiveTexture(GL_TEXTURE1);
   abcg::glBindTexture(GL_TEXTURE_2D, m_normalTexture);
