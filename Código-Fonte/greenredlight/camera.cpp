@@ -22,7 +22,7 @@ void Camera::init(GLuint m_program, glm::mat4 m_modelMatrix) {
   abcg::glUniform4fv(IdLoc, 1, &m_Id.x);
   abcg::glUniform4fv(IsLoc, 1, &m_Is.x);
 
-  glm::vec4 m_lightDir{-1.0f, -4.0f, -1.0f, 0.0f};
+  glm::vec4 m_lightDir{-3.0f, -4.0f, -3.0f, 0.0f};
   glm::mat4 m_rotation{1.0f};
   const auto lightDirRotated{m_rotation * m_lightDir};
   abcg::glUniform4fv(lightDirLoc, 1, &lightDirRotated.x);
