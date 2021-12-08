@@ -44,7 +44,9 @@ Essa classe agora carrega uma textura difusa e uma textura normal que dão ao ch
 ### paredes.cpp
 Essa classe agora carrega uma textura difusa e uma textura normal que detalha a aparência da parede deixando similar a algum tipo de gesso pintado em um tom de azul. Como o .obj foi feito por mim no blender e não tem coordenada de texturas é utilizado a técnica de mapeamento planar.
 
-## shaders
+---
+
+## Shaders
 Esse projeto faz uso de 3 tipos diferentes de shaders. Isso ocorre pois o .obj da boneca, por exemplo, não apresenta textura normal e isso compromete aspectos de iluminação quando renderizado fazendo uso de shader que utiliza essa textura. A linha de chegada também é um objeto 3D muito simples, que não apresenta nenhuma textura, mas necessita de um atributo de cor, por isso foi utilizado um shader separado para esse objeto.
 
 O shader "normalmapping.frag" sofreu uma pequena alteração na parte do cálculo de mapeamento planar na direção X e Z (onde estão as paredes da cena). Essa alteração faz com que a textura, quando aplicada no .obj das paredes, seja reproduzida em um "tamanho menor", posteriormente, o GL_REPEAT vai ser forçado a repetir mais vezes a textura no .obj (empacotamento). Isso resulta numa qualidade visual melhor para a textura, já que sem isso ela aparenta distorcida devido a escala do objeto na cena.
