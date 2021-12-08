@@ -48,7 +48,7 @@ Essa classe agora carrega uma textura difusa e uma textura normal que detalha a 
 
 O resultado final é uma versão parecida com a anterior, até mesmo nas cores, mas texturizada e muito mais bonita visualmente.
 
-![result](https://user-images.githubusercontent.com/74402232/142194124-ab5329fd-f30e-4813-8dd6-80d04c8eef23.png)
+![result](https://user-images.githubusercontent.com/74402232/145303708-2a0cef8c-3c34-4a95-bdf5-7683f0a8b5d9.png)
 
 
 **Obs:** Algumas texturas foram modificadas se comparadas ao link original de download. Isso foi feito através do Photoshop para que ficassem na cor adequada que combinasse mais com o projeto. Exemplo: os "bonecos among us" eram orginalmente vermelhos e foram alterados para uma cor verde/ciano. Também ocorre na cor das paredes e nas folhas da arvore.
