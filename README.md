@@ -46,14 +46,14 @@ Essa classe agora carrega uma textura difusa e uma textura normal que detalha a 
 
 ---
 
-## Shaders
+### Shaders
 Esse projeto faz uso de 3 tipos diferentes de shaders. Isso ocorre pois o .obj da boneca, por exemplo, não apresenta textura normal e isso compromete aspectos de iluminação quando renderizado fazendo uso de shader que utiliza essa textura. A linha de chegada também é um objeto 3D muito simples, que não apresenta nenhuma textura, mas necessita de um atributo de cor, por isso foi utilizado um shader separado para esse objeto.
 
 O shader "normalmapping.frag" sofreu uma pequena alteração na parte do cálculo de mapeamento planar na direção X e Z (onde estão as paredes da cena). Essa alteração faz com que a textura, quando aplicada no .obj das paredes, seja reproduzida em um "tamanho menor", posteriormente, o GL_REPEAT vai ser forçado a repetir mais vezes a textura no .obj (empacotamento). Isso resulta numa qualidade visual melhor para a textura, já que sem isso ela aparenta distorcida devido a escala do objeto na cena.
 
 ---
 
-## Resultado
+### Resultado
 O resultado final é uma versão parecida com a anterior, até mesmo nas cores, mas texturizada e muito mais bonita visualmente.
 
 ![result](https://user-images.githubusercontent.com/74402232/145303708-2a0cef8c-3c34-4a95-bdf5-7683f0a8b5d9.png)
