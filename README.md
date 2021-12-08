@@ -30,7 +30,7 @@ Essa nova classe é responsável por ler o .obj do tronco de uma arvore, além d
 ### folhas.cpp
 Essa nova classe é responsável por ler o .obj das folhas de uma arvore, além de carregar as texturas difusa e normal desse objeto utilizando a técnica de UV mapping. A textura difusa, nesse caso, é uma "alpha textura" que apresenta transparência nas regiões de "vazio" entre as folhas, por esse motivo, essa classe também implementa a técnica de "Blending" do OpenGL.
 
-Outro detalhe é que a face traseira de alguns triângulos (que representam as folhas) -=recem de frente para a câmera, resultando em uma tonalidades de vermelho como é esperado pelo shader utilizado. Já que esse shader é o mesmo de outros objetos da cena e seria desnecessário criar um novo para renderizar apenas um objeto, isso foi corrigido renderizando o .obj das folhas duas vezes alternando a orientação (lado da frente) dos triângulos e descartando as traseiras com CULL FACE. 
+Outro detalhe é que a face traseira de alguns triângulos (que representam as folhas) aparecem de frente para a câmera, resultando em tonalidades de vermelho como é esperado pelo shader utilizado. Já que esse shader é o mesmo de outros objetos da cena e seria desnecessário criar um novo para renderizar apenas um objeto, isso foi corrigido renderizando o .obj das folhas duas vezes alternando a orientação (lado da frente) dos triângulos e descartando as traseiras com CULL FACE. 
 
 ### soldado.cpp
 Essa classe agora carrega uma textura difusa e uma textura normal que detalham adequadamente a aparência do soldado. Essas texturas utlizam a técnica de mapeamento UV. Além disso, foi utilizado um filtro mipmap para melhorar a qualidade do soldado que ficava estranha quando muito distante.
